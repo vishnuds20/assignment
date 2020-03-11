@@ -1,17 +1,19 @@
-# assignment
+# HeadSpin Task
+## Prerequisites
 
-## 1  program to  check if a date is valid or note
-### step1   
-enter the date in the format DD/MM/YYYY
-        (use '/' this symbrol to separate day month and year)
+ - Windows 10
+ - Download and Install MinGw Gcc compiler
 
-if the date is valid the output will be " the date is valid "
-otherwise output will be " the date is in valid "
+## Question 1 
+Write a program to check if a date is valid or not.
+ 1. Open command prompt .*Win+R -> type 'cmd'*.
+ 2. Type in `gcc date-valid.c`
 
-## 2  insert an element into an array to the Nth position
-### step1
-enter the number of elements in the array and enter the elements in the array
-### step2
-enter the position of new element to be inserted and enter the new element
-
-the new array will be display after adding new element
+## Question 2
+Write a program to insert an element into an array to the nth position without using any inbuilt functions.
+ 1. Open command prompt .*Win+R -> type 'cmd'*.
+ 2. Type in `gcc insert-array.c`.
+## Question 3
+Write a program to print all Armstrong numbers less than N. Input N at the time of execution.
+1. Open command prompt .*Win+R -> type 'cmd'*.
+ 2. Type in `gcc armstrong-num.c`.
